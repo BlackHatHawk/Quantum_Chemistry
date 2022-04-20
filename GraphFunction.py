@@ -30,6 +30,21 @@ def Area_Indexing_wave(wavefunction: Callable[[np.ndarray],np.ndarray],limits:Tu
 
     return area_delx
 
+def Area_Indexing_spherical_wave(wavefunction: Callable[[np.ndarray],np.ndarray],limits:Tuple[np.ndarray,np.ndarray],parts: int=1000):
+
+    '''
+    assert fourierTrick(wavefunction,wavefunction,limits) == 1 ,\
+        'wavefunction is not normalised'
+    '''
+    delx = np.linspace(limits[0],limits[1],parts+1)
+    area_delx = np.zeros((parts,2))
+    for i in range(parts):
+        if i != 0:
+            area_delx[i,0] = area_delx[i-1,1]
+        area_delx[i,1] = area_delx[i,0] + fourierTrick_spherical_radial(wavefunction,(delx[i],delx[i+1]))
+
+    return area_delx
+
 def prob_wt_cal(funcradial: Callable[[np.ndarray],np.ndarray],
                                 functheta: Callable[[np.ndarray],np.ndarray],
                                 funcphi: Callable[[np.ndarray],np.ndarray],
