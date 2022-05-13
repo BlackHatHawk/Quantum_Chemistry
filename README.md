@@ -10,7 +10,10 @@ Chemical_kinetics folder contains files that simulate ideal nature of chemical r
 
 #Explaination of files:
 
-Function.py contains general mathmatical functions or operations usefull in quantum chemistry
-GraphFunction.py contains functions that help in ploting of graph
-Operators.py contains definition of quantum operators defined with the help of Function.py file
+Function.py contains general mathmatical functions or operations usefull in quantum chemistry.
+
+GraphFunction.py contains functions that help in ploting of graph.
+
+Operators.py contains definition of quantum operators defined with the help of Function.py file.
+
 Wavefunction.py contains definition of wavefunction used in quantum chemistry such as Radial and angular wavefunction of hydrogen atom.
