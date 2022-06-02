@@ -1,12 +1,12 @@
 # Quantum_Chemistry
 
-Electron density plot of 3d and 4f orbitals are in [results](https://github.com/BlackHatHawk/Quantum_Chemistry/edit/main/results) folder.
+Electron density plot of 3d and 4f orbitals are in [results](https://github.com/BlackHatHawk/Quantum_Chemistry/edit/main/Calculated_results) folder.
 
-A simulation of Mossbauer spectra is in [Mossbauer_spect.ipynb](https://github.com/BlackHatHawk/Quantum_Chemistry/edit/main/Mossbauer_spect.ipynb) file.
+A simulation of Mossbauer spectra is in [Mossbauer_spect.ipynb](https://github.com/BlackHatHawk/Quantum_Chemistry/blob/main/Mossbauer_spect.ipynb) file.
 
-A simulation of postion of partical in 1D box by monte-carlo method in (free_particle.ipynb) file.
+A simulation of postion of partical in 1D box by monte-carlo method in [free_particle.ipynb](https://github.com/BlackHatHawk/Quantum_Chemistry/blob/main/free_particle.ipynb) file.
 
-Chemical_kinetics folder contains files that simulate ideal nature of chemical reaction (not any connection with quantum chemistry).
+[Chemical_kinetics](https://github.com/BlackHatHawk/Quantum_Chemistry/blob/main/Chemical_kinetics) folder contains files that simulate ideal nature of chemical reaction (not any connection with quantum chemistry).
 
 ## Explaination of files:
 
