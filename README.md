@@ -10,17 +10,7 @@ A simulation of postion of partical in 1D box by monte-carlo method in [free_par
 
 ## Explaination of files:
 
-<<<<<<< HEAD
-Function.py contains general mathmatical functions or operations usefull in quantum chemistry.
-
-GraphFunction.py contains functions that help in ploting of graph.
-
-Operators.py contains definition of quantum operators defined with the help of Function.py file.
-
-Wavefunction.py contains definition of wavefunction used in quantum chemistry such as Radial and angular wavefunction of hydrogen atom.
-=======
 - Function.py contains general mathmatical functions or operations usefull in quantum chemistry
 - GraphFunction.py contains functions that help in ploting of graph
 - Operators.py contains definition of quantum operators defined with the help of Function.py file
 - Wavefunction.py contains definition of wavefunction used in quantum chemistry such as Radial and angular wavefunction of hydrogen atom.
->>>>>>> 3781923b6e18b82d8952ecfabb4893d3ba6c74c4
