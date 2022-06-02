@@ -1,8 +1,8 @@
 # Quantum_Chemistry
 
-Electron density plot of 3d and 4f orbitals are in 'results' folder.
+Electron density plot of 3d and 4f orbitals are in [results](https://github.com/BlackHatHawk/Quantum_Chemistry/edit/main/results) folder.
 
-A simulation of Mossbauer spectra is in Mossbauer_spect.ipynb file.
+A simulation of Mossbauer spectra is in [Mossbauer_spect.ipynb](https://github.com/BlackHatHawk/Quantum_Chemistry/edit/main/Mossbauer_spect.ipynb) file.
 
 A simulation of postion of partical in 1D box by monte-carlo method in (free_particle.ipynb) file.
 
